@@ -1,0 +1,193 @@
+* {
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0;
+}
+
+body {
+  margin: 0 auto 0 auto;
+  padding: 0;
+  /*max-width: 1200px;*/
+  font-family: "Avenir", "Avenir Next", Helvetica Neue, Arial;
+  font-size: 1.0em;
+  /* background-color: #272728; */
+
+  /* change bc to match the ocean */
+  background-color: #262626;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: #c5ccd3;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #f4b014;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #e5bc94;
+  background-color: inherit;
+  font-weight: normal;
+  padding: 0 0 5px 0;
+  margin: 15px 0 0 0;
+  border: none;
+  clear: right;
+}
+
+h1 {
+  font-size: 64pt;
+  line-height: 28px;
+  margin-bottom: 40px;
+  /*margin-left: 40px*/
+}
+
+h2 {
+  font-size: 32pt;
+  margin: 30px 0 15px 0;
+  letter-spacing: 0.01em;
+  line-height: 20px;
+  margin-left: 40px;
+  color: #e5bc94;
+}
+
+h3 {
+  font-size: 18pt;
+  color: #e5bc94;
+}
+
+h4 {
+  font-size: 18pt;
+  color: #c5ccd3;
+
+}
+
+h5 {
+  font-size: 11pt;
+}
+
+p {
+  color: #c5ccd3;
+}
+
+.content {
+  margin: 0;
+  /*padding: 15px 20px;*/
+  /*background-color: #c5ccd3;*/
+}
+
+.title,
+.title h1,
+.title a {
+  color: #e5bc94;
+  font-size: 24pt;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.footer {
+  border-top: 1px solid #c5ccd3;
+  margin-top: 30px;
+  padding-top: 4px;
+  text-align: right;
+  font-size: 12px;
+}
+
+.footer a {
+  color: #21346b;
+}
+
+.footer a:hover {
+  color: #ce3333;
+}
+
+.main-cards {
+  column-count: 2;
+  column-gap: 20px;
+  margin: 20px;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  /* background-color: #82bef6; */
+  margin-bottom: 20px;
+  -webkit-column-break-inside: avoid;
+  box-sizing: border-box;
+}
+
+.main-cards-2 {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+  
+.card-2 {
+    /* background-color: #82bef6; */
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.card-col {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.card-col > div {
+    /* background-color: #f4b014; */
+    min-width: 100px;
+    min-height: 100px;
+    margin-bottom: 20px;
+}
+
+.card-filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #82bef6;
+  margin-bottom: 20px;
+  -webkit-column-break-inside: avoid;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+/* Force varying heights to simulate dynamic content */
+.card-filter:first-child {
+  height: 150px;
+}
+
+.card-filter:nth-child(2) {
+  height: 315px;
+}
+
+.card-filter:nth-child(3) {
+  height: 485px;
+}
+
+.card:first-child {
+    height: 485px;
+}
+
+.card:nth-child(2) {
+    height: 485px;
+  }
+
+
+/*fullpage.js stuff*/
+.section{
+    text-align:justify;
+}
+
+  
+  
