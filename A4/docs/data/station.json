@@ -1,0 +1,1049 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.350964,47.618418 ]
+    },
+    "properties": {
+      "station_id":"BT-01",
+      "name":"3rd Ave & Broad St",
+      "install_date":"10/13/14",
+      "install_dockcount":18,
+      "modification_date":"",
+      "current_dockcount":18,
+      "decommission_date":"",
+      "nhood":"Downtown",
+      "nhood_name":"Belltown"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.348564,47.615829 ]
+    },
+    "properties": {
+    "station_id":"BT-03",
+    "name":"2nd Ave & Vine St",
+    "install_date":"10/13/14",
+    "install_dockcount":16,
+    "modification_date":"",
+    "current_dockcount":16,
+    "decommission_date":"",
+    "nhood":"Downtown",
+    "nhood_name":"Belltown"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.341102,47.616094 ]
+    },
+    "properties": {
+    "station_id":"BT-04",
+    "name":"6th Ave & Blanchard St",
+    "install_date":"10/13/14",
+    "install_dockcount":16,
+    "modification_date":"",
+    "current_dockcount":16,
+    "decommission_date":"",
+    "nhood":"Downtown",
+    "nhood_name":"Belltown"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.344208,47.61311 ]
+    },
+    "properties": {
+    "station_id":"BT-05",
+    "name":"2nd Ave & Blanchard St",
+    "install_date":"10/13/14",
+    "install_dockcount":14,
+    "modification_date":"",
+    "current_dockcount":14,
+    "decommission_date":"",
+    "nhood":"Downtown",
+    "nhood_name":"Belltown"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.332447,47.610731 ]
+    },
+    "properties": {
+    "station_id":"CBD-03",
+    "name":"7th Ave & Union St",
+    "install_date":"10/13/14",
+    "install_dockcount":20,
+    "modification_date":"",
+    "current_dockcount":20,
+    "decommission_date":"",
+    "nhood":"Downtown",
+    "nhood_name":"Central Business District"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.335596,47.609221 ]
+    },
+    "properties": {
+    "station_id":"CBD-04",
+    "name":"Union St & 4th Ave",
+    "install_date":"7/27/15",
+    "install_dockcount":18,
+    "modification_date":"",
+    "current_dockcount":18,
+    "decommission_date":"",
+    "nhood":"Downtown",
+    "nhood_name":"Central Business District"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3358,47.604058 ]
+    },
+    "properties": {
+    "station_id":"CBD-05",
+    "name":"1st Ave & Marion St",
+    "install_date":"10/13/14",
+    "install_dockcount":20,
+    "modification_date":"",
+    "current_dockcount":20,
+    "decommission_date":"",
+    "nhood":"Downtown",
+    "nhood_name":"Central Business District"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.335768,47.60595 ]
+    },
+    "properties": {
+    "station_id":"CBD-06",
+    "name":"2nd Ave & Spring St",
+    "install_date":"10/13/14",
+    "install_dockcount":20,
+    "modification_date":"11/9/15",
+    "current_dockcount":18,
+    "decommission_date":"",
+    "nhood":"Downtown",
+    "nhood_name":"Central Business District"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.330409,47.603509 ]
+    },
+    "properties": {
+    "station_id":"CBD-07",
+    "name":"City Hall / 4th Ave & James St",
+    "install_date":"10/13/14",
+    "install_dockcount":20,
+    "modification_date":"",
+    "current_dockcount":20,
+    "decommission_date":"",
+    "nhood":"Downtown",
+    "nhood_name":"Central Business District"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.339641,47.610185 ]
+    },
+    "properties": {
+    "station_id":"CBD-13",
+    "name":"2nd Ave & Pine St",
+    "install_date":"10/13/14",
+    "install_dockcount":18,
+    "modification_date":"",
+    "current_dockcount":18,
+    "decommission_date":"",
+    "nhood":"Downtown",
+    "nhood_name":"Central Business District"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.316923,47.602103 ]
+    },
+    "properties": {
+    "station_id":"CD-01",
+    "name":"12th Ave & E Yesler Way",
+    "install_date":"5/22/15",
+    "install_dockcount":16,
+    "modification_date":"8/9/16",
+    "current_dockcount":0,
+    "decommission_date":"8/9/16",
+    "nhood":"Central Area",
+    "nhood_name":"Minor"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.325249,47.618633 ]
+    },
+    "properties": {
+    "station_id":"CH-01",
+    "name":"Summit Ave & E Denny Way",
+    "install_date":"10/13/14",
+    "install_dockcount":16,
+    "modification_date":"",
+    "current_dockcount":16,
+    "decommission_date":"",
+    "nhood":"Capitol Hill",
+    "nhood_name":"Broadway"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.321251,47.622063 ]
+    },
+    "properties": {
+    "station_id":"CH-02",
+    "name":"E Harrison St & Broadway Ave E",
+    "install_date":"10/13/14",
+    "install_dockcount":18,
+    "modification_date":"2/24/15",
+    "current_dockcount":20,
+    "decommission_date":"",
+    "nhood":"Capitol Hill",
+    "nhood_name":"Broadway"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.325279,47.623367 ]
+    },
+    "properties": {
+    "station_id":"CH-03",
+    "name":"Summit Ave E & E Republican St",
+    "install_date":"10/13/14",
+    "install_dockcount":16,
+    "modification_date":"",
+    "current_dockcount":16,
+    "decommission_date":"",
+    "nhood":"Capitol Hill",
+    "nhood_name":"Broadway"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.312805,47.620712 ]
+    },
+    "properties": {
+    "station_id":"CH-05",
+    "name":"15th Ave E & E Thomas St",
+    "install_date":"10/13/14",
+    "install_dockcount":16,
+    "modification_date":"",
+    "current_dockcount":16,
+    "decommission_date":"",
+    "nhood":"Capitol Hill",
+    "nhood_name":"Stevens"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.317017,47.618549 ]
+    },
+    "properties": {
+    "station_id":"CH-06",
+    "name":"12th Ave & E Denny Way",
+    "install_date":"10/13/14",
+    "install_dockcount":16,
+    "modification_date":"",
+    "current_dockcount":16,
+    "decommission_date":"",
+    "nhood":"Capitol Hill",
+    "nhood_name":"Broadway"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.311752,47.61533 ]
+    },
+    "properties": {
+    "station_id":"CH-07",
+    "name":"E Pine St & 16th Ave",
+    "install_date":"10/13/14",
+    "install_dockcount":18,
+    "modification_date":"",
+    "current_dockcount":18,
+    "decommission_date":"",
+    "nhood":"Capitol Hill",
+    "nhood_name":"Minor"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.318245,47.615486 ]
+    },
+    "properties": {
+    "station_id":"CH-08",
+    "name":"Cal Anderson Park / 11th Ave & Pine St",
+    "install_date":"10/13/14",
+    "install_dockcount":28,
+    "modification_date":"2/24/15",
+    "current_dockcount":26,
+    "decommission_date":"",
+    "nhood":"Capitol Hill",
+    "nhood_name":"Broadway"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.322083,47.615517 ]
+    },
+    "properties": {
+    "station_id":"CH-09",
+    "name":"Harvard Ave & E Pine St",
+    "install_date":"10/13/14",
+    "install_dockcount":16,
+    "modification_date":"",
+    "current_dockcount":16,
+    "decommission_date":"",
+    "nhood":"Capitol Hill",
+    "nhood_name":"Broadway"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.326729,47.615456 ]
+    },
+    "properties": {
+    "station_id":"CH-12",
+    "name":"Bellevue Ave & E Pine St",
+    "install_date":"10/13/14",
+    "install_dockcount":18,
+    "modification_date":"",
+    "current_dockcount":14,
+    "decommission_date":"",
+    "nhood":"Capitol Hill",
+    "nhood_name":"Broadway"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.316811,47.624142 ]
+    },
+    "properties": {
+    "station_id":"CH-15",
+    "name":"12th Ave & E Mercer St",
+    "install_date":"10/13/14",
+    "install_dockcount":16,
+    "modification_date":"",
+    "current_dockcount":16,
+    "decommission_date":"",
+    "nhood":"Capitol Hill",
+    "nhood_name":"Broadway"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.339617,47.624298 ]
+    },
+    "properties": {
+    "station_id":"DPD-01",
+    "name":"9th Ave N & Mercer St",
+    "install_date":"10/13/14",
+    "install_dockcount":18,
+    "modification_date":"",
+    "current_dockcount":18,
+    "decommission_date":"",
+    "nhood":"Cascade",
+    "nhood_name":"South Lake Union"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.284119,47.663509 ]
+    },
+    "properties": {
+    "station_id":"DPD-03",
+    "name":"Children's Hospital / Sandpoint Way NE & 40th Ave NE",
+    "install_date":"10/13/14",
+    "install_dockcount":30,
+    "modification_date":"3/24/15",
+    "current_dockcount":24,
+    "decommission_date":"",
+    "nhood":"Laurelhurst",
+    "nhood_name":"Laurelhurst"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.332576,47.627643 ]
+    },
+    "properties": {
+    "station_id":"EL-01",
+    "name":"Fred Hutchinson Cancer Research Center / Fairview Ave N & Ward St",
+    "install_date":"10/13/14",
+    "install_dockcount":12,
+    "modification_date":"3/27/15",
+    "current_dockcount":16,
+    "decommission_date":"",
+    "nhood":"Cascade",
+    "nhood_name":"South Lake Union"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.326634,47.634831 ]
+    },
+    "properties": {
+    "station_id":"EL-03",
+    "name":"E Blaine St & Fairview Ave E",
+    "install_date":"10/13/14",
+    "install_dockcount":18,
+    "modification_date":"",
+    "current_dockcount":18,
+    "decommission_date":"",
+    "nhood":"Cascade",
+    "nhood_name":"Eastlake"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.322983,47.64909 ]
+    },
+    "properties": {
+    "station_id":"EL-05",
+    "name":"Eastlake Ave E & E Allison St",
+    "install_date":"10/13/14",
+    "install_dockcount":18,
+    "modification_date":"",
+    "current_dockcount":18,
+    "decommission_date":"",
+    "nhood":"Cascade",
+    "nhood_name":"Eastlake"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.324783,47.607281 ]
+    },
+    "properties": {
+    "station_id":"FH-01",
+    "name":"Frye Art Museum / Terry Ave & Columbia St",
+    "install_date":"10/13/14",
+    "install_dockcount":16,
+    "modification_date":"3/18/16",
+    "current_dockcount":0,
+    "decommission_date":"3/18/16",
+    "nhood":"Downtown",
+    "nhood_name":"First Hill"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.316651,47.609239 ]
+    },
+    "properties": {
+    "station_id":"FH-04",
+    "name":"Seattle University / E Columbia St & 12th Ave",
+    "install_date":"10/13/14",
+    "install_dockcount":20,
+    "modification_date":"",
+    "current_dockcount":20,
+    "decommission_date":"",
+    "nhood":"Downtown",
+    "nhood_name":"First Hill"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.326412,47.598488 ]
+    },
+    "properties": {
+    "station_id":"ID-04",
+    "name":"6th Ave S & S King St",
+    "install_date":"10/13/14",
+    "install_dockcount":16,
+    "modification_date":"",
+    "current_dockcount":16,
+    "decommission_date":"",
+    "nhood":"Downtown",
+    "nhood_name":"International District"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.332946,47.600757 ]
+    },
+    "properties": {
+    "station_id":"PS-04",
+    "name":"Occidental Park / Occidental Ave S & S Washington St",
+    "install_date":"10/13/14",
+    "install_dockcount":18,
+    "modification_date":"",
+    "current_dockcount":18,
+    "decommission_date":"",
+    "nhood":"Downtown",
+    "nhood_name":"Pioneer Square"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.329684,47.598994 ]
+    },
+    "properties": {
+    "station_id":"PS-05",
+    "name":"King Street Station Plaza / 2nd Ave Extension S & S Jackson St",
+    "install_date":"10/13/14",
+    "install_dockcount":18,
+    "modification_date":"",
+    "current_dockcount":18,
+    "decommission_date":"",
+    "nhood":"Downtown",
+    "nhood_name":"Pioneer Square"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.330304,47.619859 ]
+    },
+    "properties": {
+    "station_id":"SLU-01",
+    "name":"REI / Yale Ave N & John St",
+    "install_date":"10/13/14",
+    "install_dockcount":18,
+    "modification_date":"2/24/15",
+    "current_dockcount":20,
+    "decommission_date":"",
+    "nhood":"Cascade",
+    "nhood_name":"South Lake Union"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.342232,47.627735 ]
+    },
+    "properties": {
+    "station_id":"SLU-02",
+    "name":"Dexter Ave N & Aloha St",
+    "install_date":"10/13/14",
+    "install_dockcount":18,
+    "modification_date":"",
+    "current_dockcount":18,
+    "decommission_date":"",
+    "nhood":"Cascade",
+    "nhood_name":"Westlake"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.338203,47.623165 ]
+    },
+    "properties": {
+    "station_id":"SLU-04",
+    "name":"Republican St & Westlake Ave N",
+    "install_date":"10/13/14",
+    "install_dockcount":18,
+    "modification_date":"",
+    "current_dockcount":18,
+    "decommission_date":"",
+    "nhood":"Cascade",
+    "nhood_name":"South Lake Union"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.338913,47.61832 ]
+    },
+    "properties": {
+    "station_id":"SLU-07",
+    "name":"PATH / 9th Ave & Westlake Ave",
+    "install_date":"10/13/14",
+    "install_dockcount":18,
+    "modification_date":"",
+    "current_dockcount":18,
+    "decommission_date":"",
+    "nhood":"Cascade",
+    "nhood_name":"South Lake Union"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.337341,47.613628 ]
+    },
+    "properties": {
+    "station_id":"SLU-15",
+    "name":"Westlake Ave & 6th Ave",
+    "install_date":"10/13/14",
+    "install_dockcount":12,
+    "modification_date":"3/13/15",
+    "current_dockcount":20,
+    "decommission_date":"",
+    "nhood":"Downtown",
+    "nhood_name":"Belltown"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.331777,47.613715 ]
+    },
+    "properties": {
+    "station_id":"SLU-16",
+    "name":"Pine St & 9th Ave",
+    "install_date":"10/13/14",
+    "install_dockcount":20,
+    "modification_date":"",
+    "current_dockcount":20,
+    "decommission_date":"",
+    "nhood":"Downtown",
+    "nhood_name":"Central Business District"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.335831,47.626041 ]
+    },
+    "properties": {
+    "station_id":"SLU-17",
+    "name":"Lake Union Park / Valley St & Boren Ave N",
+    "install_date":"10/13/14",
+    "install_dockcount":18,
+    "modification_date":"2/23/15",
+    "current_dockcount":16,
+    "decommission_date":"",
+    "nhood":"Cascade",
+    "nhood_name":"South Lake Union"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.342205,47.618285 ]
+    },
+    "properties": {
+    "station_id":"SLU-18",
+    "name":"Dexter Ave & Denny Way",
+    "install_date":"10/13/14",
+    "install_dockcount":20,
+    "modification_date":"11/2/15",
+    "current_dockcount":0,
+    "decommission_date":"7/2/16",
+    "nhood":"Downtown",
+    "nhood_name":"Belltown"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.35523,47.622277 ]
+    },
+    "properties": {
+    "station_id":"SLU-19",
+    "name":"Key Arena / 1st Ave N & Harrison St",
+    "install_date":"10/13/14",
+    "install_dockcount":12,
+    "modification_date":"3/4/15",
+    "current_dockcount":16,
+    "decommission_date":"",
+    "nhood":"Queen Anne",
+    "nhood_name":"Lower Queen Anne"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.333815,47.61626 ]
+    },
+    "properties": {
+    "station_id":"SLU-20",
+    "name":"Terry Ave & Stewart St",
+    "install_date":"6/12/15",
+    "install_dockcount":20,
+    "modification_date":"",
+    "current_dockcount":20,
+    "decommission_date":"",
+    "nhood":"Downtown",
+    "nhood_name":"Belltown"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.339408,47.624769 ]
+    },
+    "properties": {
+    "station_id":"SLU-21",
+    "name":"Mercer St & 9th Ave N",
+    "install_date":"9/15/15",
+    "install_dockcount":20,
+    "modification_date":"",
+    "current_dockcount":20,
+    "decommission_date":"",
+    "nhood":"Cascade",
+    "nhood_name":"Westlake"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.301491,47.666145 ]
+    },
+    "properties": {
+    "station_id":"UD-01",
+    "name":"Burke-Gilman Trail / NE Blakeley St & 24th Ave NE",
+    "install_date":"10/13/14",
+    "install_dockcount":18,
+    "modification_date":"",
+    "current_dockcount":18,
+    "decommission_date":"",
+    "nhood":"University District",
+    "nhood_name":"University District"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.313334,47.658288 ]
+    },
+    "properties": {
+    "station_id":"UD-02",
+    "name":"NE 42nd St & University Way NE",
+    "install_date":"10/13/14",
+    "install_dockcount":18,
+    "modification_date":"",
+    "current_dockcount":18,
+    "decommission_date":"",
+    "nhood":"University District",
+    "nhood_name":"University District"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.31562,47.656395 ]
+    },
+    "properties": {
+    "station_id":"UD-04",
+    "name":"12th Ave & NE Campus Pkwy",
+    "install_date":"10/13/14",
+    "install_dockcount":16,
+    "modification_date":"",
+    "current_dockcount":16,
+    "decommission_date":"",
+    "nhood":"University District",
+    "nhood_name":"University District"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.315086,47.663143 ]
+    },
+    "properties": {
+    "station_id":"UD-07",
+    "name":"NE 47th St & 12th Ave NE",
+    "install_date":"10/13/14",
+    "install_dockcount":16,
+    "modification_date":"",
+    "current_dockcount":16,
+    "decommission_date":"",
+    "nhood":"University District",
+    "nhood_name":"University District"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.304826,47.660268 ]
+    },
+    "properties": {
+    "station_id":"UW-01",
+    "name":"UW McCarty Hall / Whitman Ct",
+    "install_date":"10/13/14",
+    "install_dockcount":16,
+    "modification_date":"10/29/15",
+    "current_dockcount":0,
+    "decommission_date":"10/29/15",
+    "nhood":"University District",
+    "nhood_name":"University District"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.310402,47.659756 ]
+    },
+    "properties": {
+    "station_id":"UW-02",
+    "name":"Burke Museum / E Stevens Way NE & Memorial Way NE",
+    "install_date":"10/13/14",
+    "install_dockcount":12,
+    "modification_date":"2/20/15",
+    "current_dockcount":14,
+    "decommission_date":"",
+    "nhood":"University District",
+    "nhood_name":"University District"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.31189,47.65559 ]
+    },
+    "properties": {
+    "station_id":"UW-04",
+    "name":"15th Ave NE & NE 40th St",
+    "install_date":"10/13/14",
+    "install_dockcount":18,
+    "modification_date":"2/20/15",
+    "current_dockcount":16,
+    "decommission_date":"",
+    "nhood":"University District",
+    "nhood_name":"University District"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.304863,47.654613 ]
+    },
+    "properties": {
+    "station_id":"UW-06",
+    "name":"UW Engineering Library / E Stevens Way NE & Jefferson Rd",
+    "install_date":"10/13/14",
+    "install_dockcount":12,
+    "modification_date":"2/20/15",
+    "current_dockcount":14,
+    "decommission_date":"",
+    "nhood":"University District",
+    "nhood_name":"University District"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.302162,47.653713 ]
+    },
+    "properties": {
+    "station_id":"UW-07",
+    "name":"UW Intramural Activities Building",
+    "install_date":"10/13/14",
+    "install_dockcount":20,
+    "modification_date":"2/20/15",
+    "current_dockcount":14,
+    "decommission_date":"",
+    "nhood":"University District",
+    "nhood_name":"University District"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.311188,47.650725 ]
+    },
+    "properties": {
+    "station_id":"UW-10",
+    "name":"UW Magnuson Health Sciences Center Rotunda / Columbia Rd & San Juan Rd",
+    "install_date":"10/13/14",
+    "install_dockcount":16,
+    "modification_date":"",
+    "current_dockcount":16,
+    "decommission_date":"",
+    "nhood":"University District",
+    "nhood_name":"University District"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.354093,47.614315 ]
+    },
+    "properties": {
+    "station_id":"WF-01",
+    "name":"Pier 69 / Alaskan Way & Clay St",
+    "install_date":"10/13/14",
+    "install_dockcount":18,
+    "modification_date":"",
+    "current_dockcount":24,
+    "decommission_date":"",
+    "nhood":"Downtown",
+    "nhood_name":"Belltown"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.34165,47.607702 ]
+    },
+    "properties": {
+    "station_id":"WF-04",
+    "name":"Seattle Aquarium / Alaskan Way S & Elliott Bay Trail",
+    "install_date":"10/13/14",
+    "install_dockcount":18,
+    "modification_date":"",
+    "current_dockcount":18,
+    "decommission_date":"",
+    "nhood":"Downtown",
+    "nhood_name":"Pike-Market"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3207769,47.61863956 ]
+    },
+    "properties": {
+    "station_id":"CH-16",
+    "name":"Broadway and E Denny Way",
+    "install_date":"3/18/16",
+    "install_dockcount":18,
+    "modification_date":"",
+    "current_dockcount":18,
+    "decommission_date":"",
+    "nhood":"Capitol Hill",
+    "nhood_name":"Broadway"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3473769,47.62087853 ]
+    },
+    "properties": {
+    "station_id":"SLU-22",
+    "name":"Thomas St & 5th Ave N",
+    "install_date":"7/3/16",
+    "install_dockcount":18,
+    "modification_date":"",
+    "current_dockcount":18,
+    "decommission_date":"",
+    "nhood":"Queen Anne",
+    "nhood_name":"Lower Queen Anne"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3062634,47.64995155 ]
+    },
+    "properties": {
+    "station_id":"UW-11",
+    "name":"NE Pacific St/UW Medical Center",
+    "install_date":"10/29/15",
+    "install_dockcount":16,
+    "modification_date":"",
+    "current_dockcount":16,
+    "decommission_date":"",
+    "nhood":"University District",
+    "nhood_name":"University District"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3487015,47.61137028 ]
+    },
+    "properties": {
+    "station_id":"WF-03",
+    "name":"Pier 66 / Alaskan Way & Bell St",
+    "install_date":"8/9/16",
+    "install_dockcount":18,
+    "modification_date":"",
+    "current_dockcount":18,
+    "decommission_date":"",
+    "nhood":"Downtown",
+    "nhood_name":"Belltown"
+    }
+  }
+]
+}
