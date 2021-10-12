@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>The Rise and Fall of Pronto: the First Bike-Sharing Program in Seattle</title>
+	<link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+	<!-- Load D3 scripts -->
+	<script src="https://d3js.org/d3.v6.min.js"></script>
+  	<script src="https://cdn.jsdelivr.net/npm/d3-tile@1"></script>
+	<script src="https://d3js.org/d3-geo.v2.min.js"></script>
+	<script src="https://d3js.org/d3-collection.v1.min.js"></script>
+
+	<!--  Load Vega scripts-->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+
+	<!-- Load jquery -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			crossorigin="anonymous">
+	</script>
+	<!-- Script to load html snippets from separate files -->
+	<script>
+		$(function () {
+		  var includes = $('[data-include]')
+		  $.each(includes, function () {
+			var file = 'pages/' + $(this).data('include') + '.html'
+			$(this).load(file)
+		  })
+		})
+	</script>
+
+</head>
+<body>
+
+<div id="fullpage">
+	<!--Title Page-->
+	<div class="section " id="sectionTitle">
+		<div data-include="intro" class="intro"></div>
+	</div>
+
+	<!-- How to Use -->
+<!--	<div class="section" id="sectionHowTo">-->
+<!--		<div class="intro">-->
+<!--				<h2>Navigating The Story</h2>-->
+<!--				<p>-->
+<!--					Scroll down to follow along with the big picture story-->
+<!--				</p>-->
+<!--				<p>-->
+<!--					Scroll (or click) left/right for some extra details that aid-->
+<!--					(but aren't essential to) the main storyline.-->
+<!--				</p>-->
+<!--			</div>-->
+
+<!--	</div>-->
+
+	<!--Pronto By the Numbers-->
+	<div class="section " id="sectionProntoByNumbers">
+		<div data-include="pronto_by_the_numbers"></div>
+	</div>
+
+	<!--Hill Rainy-->
+	<div class="section" id="sectionRainyHilly">
+		<div data-include="rainy_hilly"></div>
+	</div>
+
+	<!--Reasons for failure-->
+	<div class="section" id="sectionReasons">
+		<div data-include="reasons"></div>
+	</div>
+
+
+	<!--System Scale-->
+	<div class="section" id="sectionSystemScale">
+		<div data-include="systemScale"></div>
+	</div>
+
+
+	<!-- Dockless Bikes -->
+	<div class="section" id="sectionDockless">
+		<div data-include="dockless"></div>
+	</div>
+
+		<!--Location-->
+	<div class="section" id="sectionLocationTransit">
+		<div data-include="location_transit"></div>
+	</div>
+
+	<div class="section" id="sectionLocationPOI">
+		<div data-include="location_poi"></div>
+	</div>
+
+
+	<!-- All SVGD Bikes -->
+	<div class="section" id="sectionSVGD_all">
+		<div data-include="svgd_all"></div>
+	</div>
+
+</div>
+
+<script type="text/javascript" src="js/fullpage.js"></script>
+<!--<script type="text/javascript" src="examples.js"></script>-->
+
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        // anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
+        // sectionsColor: ['rgb(0,0,0)','rgb(0,0,0)','rgb(0,0,0)','rgb(0,0,0)','rgb(0,0,0)',
+		// 				'rgb(0,0,0)','rgb(0,0,0)','rgb(0,0,0)','rgb(0,0,0)','rgb(0,0,0)'],
+        // scrollBar: true
+    });
+</script>
+
+</body>
+</html>
