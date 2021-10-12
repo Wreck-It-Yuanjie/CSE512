@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>A Case Study of Pronto!</title>
+	<link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+	<!-- Load D3 scripts -->
+	<script src="https://d3js.org/d3.v6.min.js"></script>
+  	<script src="https://cdn.jsdelivr.net/npm/d3-tile@1"></script>
+	<script src="https://d3js.org/d3-geo.v2.min.js"></script>
+	<script src="https://d3js.org/d3-collection.v1.min.js"></script>
+
+	<!--  Load Vega scripts-->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+
+	<!-- Load jquery -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			crossorigin="anonymous">
+	</script>
+	<!-- Script to load html snippets from separate files -->
+	<script>
+		$(function () {
+		  var includes = $('[data-include]')
+		  $.each(includes, function () {
+			var file = 'pages/' + $(this).data('include') + '.html'
+			$(this).load(file)
+		  })
+		})
+	</script>
+
+</head>
+<body>
+
+<div id="fullpage">
+	<!--Title Page-->
+	<div class="section " id="sectionTitle">
+		<div data-include="intro" class="intro"></div>
+	</div>
+
+	<!-- How to Use -->
+	<div class="section" id="sectionHowTo">
+		<div class="slide" id="howto_slide1">
+		<div class="intro">
+				<h2>Navigating The Story</h2>
+				<p>
+					Scroll down to follow along with the big picture story
+				</p>
+				<p>
+					Scroll (or click) left/right for some extra details that aid
+					(but aren't essential to) the main storyline.
+				</p>
+			</div>
+		</div>
+
+		<div class="slide" id="howto_slide2">
+			<h2>Getting into the Weeds</h2>
+			<p>
+				Sometimes we might have more to say about a topic that doesn't quite
+				fit in a page. You'll find these details in these left/right slides.
+			</p>
+			<p>
+				NOTE: If we end up needing some orientation for our viz, we'll use this
+				slide as a tutorial page.
+			</p>
+		</div>
+
+		<div class="slide" id="howto_slide3">
+			<h2>Getting back to the Story</h2>
+			<p>
+				Once you're done with the details, you can always scroll back down to
+				get back to the big-picture story!
+			</p>
+		</div>
+	</div>
+
+	<!--Pronto By the Numbers-->
+	<div class="section " id="sectionProntoByNumbers">
+		<div data-include="pronto_by_the_numbers"></div>
+	</div>
+
+	<!--Hill Rainy-->
+	<div class="section" id="sectionRainyHilly">
+		<div data-include="rainy_hilly"></div>
+	</div>
+
+	<!--Reasons for failure-->
+	<div class="section" id="sectionReasons">
+		<div class="slide" id="reasons_slide1">
+		<div class="intro">
+				<h2>Reasons for Pronto's Failure</h2>
+				<p>
+					We've ruled out two naive reasons. Now let's look at what research suggests. The chart below is
+					copied from a research article that categorizes plausible reasons for Pronto's failure. We will
+					have a similar chart with a smaller set of reasons that we'll pursue. Similar to this chart, we'll use
+					color coding to segment the reasons by their relative importance.
+				</p>
+				<img src='./images/pronto_failure_reasons.png' alt='' class='' , width="400px" , height="400px">
+			</div>
+		</div>
+
+		<div class="slide" id="reasons_slide2">
+			<h1>Reason 1: System Scale</h1>
+			<p> A few sources have hypothesized that Pronto may have operated at too small a scale - not enough bikes
+			covering the city. We'll describe some details on why this is plausible reason.
+			</p>
+		</div>
+
+		<div class="slide" id="reasons_slide3">
+			<h1>Reason 2: Access </h1>
+			<p> A few sources have hypothesized that Pronto stations were not accessible from many places of interest
+				such as transit, popular destinations, etc. We'll describe some details on why this is plausible reason.
+			</p>
+		</div>
+
+		<div class="slide" id="reasons_slide4">
+			<h1>Reason 2: More Reasons </h1>
+			<p>
+				Based on the visualizations we're able to complete, we might add more reasons here.
+			</p>
+		</div>
+	</div>
+
+	<!--System Scale-->
+	<div class="section" id="sectionSystemScale">
+		<div data-include="systemScale"></div>
+	</div>
+
+	<!--Location-->
+	<div class="section" id="sectionLocation">
+		<div data-include="location"></div>
+	</div>
+
+	<!-- Dockless Bikes -->
+	<div class="section" id="sectionDockless">
+		<div data-include="dockless"></div>
+	</div>
+
+
+	<!-- All SVGD Bikes -->
+	<div class="section" id="sectionSVGD_all">
+		<div data-include="svgd_all"></div>
+	</div>
+
+</div>
+
+<script type="text/javascript" src="js/fullpage.js"></script>
+<!--<script type="text/javascript" src="examples.js"></script>-->
+
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        // anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
+        sectionsColor: ['#B97979', '#EAD7D7', '#7E8F7C','#1BBC9B',
+			'#B97979', '#EAD7D7', '#7E8F7C',
+			'#B97979', '#EAD7D7'],
+        scrollBar: true
+    });
+</script>
+
+</body>
+</html>

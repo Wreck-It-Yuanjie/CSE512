@@ -1,0 +1,29 @@
+  <h2>Were Docked Bikes Too Restrictive?</h2>
+    <p> The pronto dataset is limited since it only shows us riders picking-up/dropping-off bikes from
+    fixed locations (stations). So we don't know where riders would have actually wanted to go.
+        To get this information, we obtained a second dataset of dockless bikes in Seattle. Since riders are free
+        to drop off these bikes wherever they want, we can use this data to get a sense of how well aligned pronto
+        bike stations were with "popular biking destinations".
+    </p>
+    <p>
+        The plot on the left: blue circles show locations where dockless bikes were dropped-off, with size encoding
+        the number of such trips (bigger circles means more popular destinations). The red diamonds show locations of
+        pronto stations. We're working on moving this from lat/long space to an actual map.
+    </p>
+      <p>
+        The plot on the right: The same interaction as before, but this time the slider shows "how can we move pronto
+          stations so they are better aligned with where people actually want to take bikes?"
+    </p>
+    <div class="main-cards-2">
+        <div class="card-2">
+            <div id="dockless_scatter">
+                <script src="./js/dockless_scatter.js"></script>
+            </div>
+        </div>
+
+        <div class="card-col" style="width: 650px">
+            <div id="svgd_dockless">
+                <script src="./js/svgd_dockless.js"></script>
+            </div>
+        </div>
+    </div>

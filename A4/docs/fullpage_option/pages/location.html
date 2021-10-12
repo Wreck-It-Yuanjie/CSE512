@@ -1,0 +1,35 @@
+<div class="slide" id="poi_slide1">
+  <h2>Were Pronto Stations in the Right Places?</h2>
+    <div class="main-cards-2" >
+        <div class="card-2" style="width: 650px">
+                    <p>
+            Show that Pronto was further away from transit and places of interest compared to docked bikeshare
+            services in Portland and San Francisco.
+            We will have two main viz here
+        </p>
+               <p>The same base map as in the first page. But this time we'll encode the number of places of
+               interest from each pronto station. We'll have the same plot for Portland and SF, showing
+               that Pronto was further away from places of interest</p>
+                <p>The second viz will be a refined version of the interactive map on the right. We set up a
+                kernel density estimator that modeled the density of Seattle link stations. We've plotted this
+                    density on a neighborhood level on the map. We then used a technique called Stein Variational Gradient
+                    Descent that iteratively moves points towards locations of high probability density, while
+                    simultaneously keeping the points further apart. Applied to Pronto stations, the interaction on the
+                    right show us how we could move the Pronto stations so that they were closer to transit stations
+                    but not too clustered in a few areas. This will give the viewer a sense of how far off the current
+                    orientation was from transit locations. The goal is to have this be a single-click animation rather
+                    than a slider.
+                </p>
+                <p>
+                    We'll have the same interactive maps for a few other places of interest (e.g. restaurants). The
+                    user can select these from a drop-down and run their what-if-we-could-move-the-stations scenarios.
+                </p>
+        </div>
+
+
+        <div class="card-col" style="width: 650px", id="svgd_transit">
+                <script src="js/svgd_transit.js"></script>
+        </div>
+        </div>
+    </div>
+</div>
