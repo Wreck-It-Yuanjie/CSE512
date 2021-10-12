@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html xml:lang="en" lang="en">
+<link rel="stylesheet" href="style.css">
+
+<head>
+  <title>CSE512 | Assignment 3</title>
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3-tile@1"></script>
+  <script src="https://d3js.org/d3-geo.v2.min.js"></script>
+  <script src="https://d3js.org/d3-collection.v1.min.js"></script>
+</head>
+
+<body>
+  <div class="content">
+
+    <section class="title">
+      <a href="">Docked bikesharing in Seattle: a case study of Pronto</a>
+    </section>
+
+    <section>
+      <p>
+        <strong>Team Members</strong>: Yuanjie (Tukey) Tu, Sandesh Adhikary, Britt Abrahamson, Nussara (Firn) Tieanklin
+      </p>
+    </section>
+
+    <section>
+      <h2>Assignment 3</h2>
+      <p>
+          Despite having a robust biking infrastructure, Seattle is one of the few cities where a public bikesharing system has been decommissioned. Pronto Cycle Share, a non-profit bikeshare program, was launched in October 2014 and shut down in March 2017 after the city decided to eliminate the budget for the bikeshare program. The rise and fall of the Pronto Cycle Share provides a unique case study on the design and implementation of micro-mobility networks in a major US city. <br>
+          We have designed an interactive visualization with the goal of understanding the flow of bikes within the Pronto bikeshare network between October 2014 and March 2017. The ridership network for a specific station can be visualized by clicking on a point in the map. This selection will update the bar graphs representing the trips out of (top) and into (bottom) station. By combining this information users can gain an understanding of the flow of bikes within the Pronto network.
+      </p>
+
+    </section>
+
+    <div class="footer">
+      <a href="https://courses.cs.washington.edu/courses/cse512/21sp/">CSE 512 Data Visualization</a>
+      <a href="http://www.washington.edu">University of Washington</a>
+    </div>
+
+    <div class="main-cards-2">
+      <div class="card-2" id="map" style="width: 650px; height: 700px"><h3>Where are the bike share stations located? Click around to explore more!</h3>
+      </div><!-- THIS TAG HERE -->
+      <div class="card-col">
+        <div id="inflow" style="width: 500px; height: 370px"> 
+          <h3> Where do people go from this station? </h3>
+          <p>
+            <svg width="500" height="350" id = "svg_in"> </svg>
+              <script src="bar_in.js"></script>
+          </p>
+        </div><!-- THIS TAG HERE -->
+  
+        <div id="outflow" style="width: 400px; height: 350px">
+          <h3> Where do they come from? </h3>
+          <p>
+            <svg width="500" height="350" id = "svg_out"> </svg>
+            <script src="bar_out.js"></script>
+          </p>
+        </div><!-- THIS TAG HERE -->
+  
+      </div><!-- THIS TAG HERE -->
+    </div><!-- THIS TAG HERE -->
+  
+  <script src="map.js"></script>
+  
+  </div>
+  <div>
+    <h3>Random findings and future work!</h3>
+    <li>Docked bike share stations are mainly distributed in center Seattle! The inflexibility of borrowing/returning a bike as well as a limited spatial coverage are two reasons why the program did not succeed.</li>
+    <li>The connection strength between stations are not uniform! It's super interesting the connections are some kind long tailed! We assume the connection strength is impacted by both the hierarchy of the station (biking ridership) and the distance between them.</li>
+    <li>Larger stations (with larger ridership) are more likely to be connected with all kinds of stations, while smaller stations tend to only connect with larger stations and local stations.</li>
+    <Li>It would also be exciting to see how the ridership changes across different temporal scales (like year and seasons). We'd like to explore more in A4!</Li>
+          
+  </div>
+  <div>
+          <p>
+            <br>
+        <h3>Acknowledgement: </h3>
+        <ul style="padding-left: 20px">
+
+          <li> 
+            <a href="https://observablehq.com/@d3/raster-tiles" > D3 Base Map Example </a> <br>
+          </li>
+          <li>
+            <a href="https://www.sciencedirect.com/science/article/pii/S0965856418314770?casa_token=GhCpqjE7YJQAAAAA:O7OBmAcRCCZrBNF_0tJwPoUcwPrl1Om0KuD0iFpwIC4gmfnzomDxmDmQa47w3fg_NTU_Xgaqzw" > Peters, L., & MacKenzie, D. (2019). The death and rebirth of bikesharing in Seattle: Implications for policy and system design. Transportation Research Part A: Policy and Practice, 130, 208-226. </a> 
+          </li>
+
+        </ul></p>
+  </div>
+</body>
+
+</html>
